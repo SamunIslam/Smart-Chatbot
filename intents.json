@@ -1,0 +1,49 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me Smartbot","I'm Smartbot","I'm Smartbot your virtual assistant"]
+  },
+
+  {"tag": "age",
+    "patterns": ["how old", "how old is tim", "what is your age?", "how old are you?", "your age?","age?"],
+    "responses": ["I am a machine!", "Age does not represent me!"]
+  },
+
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk","abcd","xyz","abcdef","123"],
+    "responses": ["I did not get it but I am going to search it for you"]
+  },
+
+   {"tag": "about",
+    "patterns": ["","tell","tell me","about","do you know","tell me about"],
+    "responses": ["I did not get it but I am going to search it for you"]
+  },
+
+  {"tag": "Location",
+  "patterns": ["location","where is it located","where are you located"],
+  "responses": ["Artificial intelligence (AI) is the ability of a computer or a robot controlled by a computer to do tasks that are usually done by humans because they require human intelligence and discernment."]
+  },
+
+
+  {"tag": "AI",
+  "patterns": ["AI","what is AI","what is artificial intelligence"],
+  "responses": ["Artificial intelligence (AI) is the ability of a computer or a robot controlled by a computer to do tasks that are usually done by humans because they require human intelligence and discernment."]
+  },
+
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
